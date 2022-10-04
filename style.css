@@ -9,7 +9,7 @@
 header{
     box-sizing: border-box;
     width: 100%;
-    padding: 26px 435px 26px 340px;
+    padding: 26px 435px 26px 330px;
     display: flex;
     background-color: #292929;
 }
@@ -52,7 +52,7 @@ a:hover {
 }
 
 .home-title{
-    margin-left: 375px;
+    margin-left: 330px;
     margin-right: 100px;
     padding-top: 175px;
 }
