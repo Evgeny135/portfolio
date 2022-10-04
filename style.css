@@ -1,14 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
 * {
     margin: 0;
+
+}
+
+body{
+    background-color: #292929;
 }
 header{
     box-sizing: border-box;
     width: 100%;
     padding: 26px 435px 26px 375px;
     display: flex;
-    background-color: #292929;
+    /*background-color: #292929;*/
 }
 
 .logo{
@@ -39,4 +45,48 @@ header{
 }
 a:hover {
     background-size: 100% 2px;
+}
+
+.home{
+    display: flex;
+    margin-right: 100px;
+}
+
+.home-title{
+    margin-left: 375px;
+    padding-top: 175px;
+}
+
+.home-title h1{
+    font-family: 'Montserrat',sans-serif;
+    color: #E4E4E4;
+}
+
+.home-title .hello{
+    font-size: 48px;
+}
+
+.home-text{
+    font-size: 72px;
+}
+
+.home-title p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #E4E4E4;
+    font-size: 18px;
+}
+
+.home-btn{
+    box-sizing: border-box;
+    margin-top:30px ;
+    width: 250px;
+    height: 67px;
+    background-color: orange;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-color: orange;
+    filter: drop-shadow(0 0 5px orange);
+    border-radius: 6px;
 }
