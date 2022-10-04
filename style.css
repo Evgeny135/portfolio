@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+}
+header{
+    box-sizing: content-box;
+    width: 100%;
+    background-color: black;
+
+}
