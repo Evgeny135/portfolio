@@ -6,15 +6,12 @@
 
 }
 
-body{
-    background-color: #292929;
-}
 header{
     box-sizing: border-box;
     width: 100%;
     padding: 26px 435px 26px 375px;
     display: flex;
-    /*background-color: #292929;*/
+    background-color: #292929;
 }
 
 .logo{
@@ -48,12 +45,15 @@ a:hover {
 }
 
 .home{
+    width: 100%;
     display: flex;
     margin-right: 100px;
+    background-color: #292929 ;
 }
 
 .home-title{
     margin-left: 375px;
+    margin-right: 100px;
     padding-top: 175px;
 }
 
@@ -89,4 +89,49 @@ a:hover {
     border-color: orange;
     filter: drop-shadow(0 0 5px orange);
     border-radius: 6px;
+}
+
+.home-img{
+    margin-top: 50px;
+    margin-right: 200px;
+    width: 650px;
+    height: auto;
+}
+
+.skills{
+    background-color: #3c3c3c;
+    padding-top: 115px;
+    display: flex;
+    padding-left: 300px;
+    padding-right: 300px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+.skills div{
+    display: block;
+    margin-right: 40px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    /*padding-top: 50px;*/
+    width: 270px;
+    height: 270px;
+    background-color: #2a2a2a;
+    text-align: center;
+    border-radius: 35px;
+    filter: drop-shadow(5px 7px 4px #2a2a2a);
+}
+
+.skills img{
+    margin-top: 70px;
+}
+
+.skills p{
+    margin-top: 20px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 300;
+    color: #e4e4e4;
+    font-size: 24px;
 }
