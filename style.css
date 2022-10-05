@@ -12,6 +12,7 @@ header{
     padding: 26px 435px 26px 330px;
     display: flex;
     background-color: #292929;
+
 }
 
 .logo{
@@ -100,10 +101,8 @@ a:hover {
 
 .skills{
     background-color: #3c3c3c;
-    padding-top: 115px;
+    padding: 115px 300px ;
     display: flex;
-    padding-left: 300px;
-    padding-right: 300px;
     flex-wrap: wrap;
     justify-content: center;
 
@@ -134,4 +133,26 @@ a:hover {
     font-weight: 300;
     color: #e4e4e4;
     font-size: 24px;
+}
+
+.portfolio{
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio button{
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    background-color: orange;
+}
+
+.slider{
+    padding: 50px;
+
+}
+
+.slider img{
+    width: 495px;
+    height: 500px;
 }
