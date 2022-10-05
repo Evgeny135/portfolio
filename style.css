@@ -31,6 +31,12 @@ header{
     font-family: 'Montserrat', sans-serif;
 
 }
+@media (max-width: 1000px) {
+    .navbar{
+        display: none;
+    }
+
+}
 
 .navbar a{
     text-decoration: none;
@@ -87,10 +93,22 @@ a:hover {
     font-family: 'Montserrat',sans-serif;
     font-weight: 600;
     text-transform: uppercase;
-    border-color: orange;
+    /*border-color: orange;*/
     filter: drop-shadow(0 0 5px orange);
     border-radius: 6px;
+    transition-duration:0.3s ;
+    border: none;
+
 }
+
+.home-btn:hover{
+    border-color:  #292929 ;
+    filter: drop-shadow(0 0 0px #373737);
+    color: orange;
+    background-color: #373737;
+}
+
+
 
 .home-img{
     margin-top: 50px;
@@ -121,6 +139,12 @@ a:hover {
     text-align: center;
     border-radius: 35px;
     filter: drop-shadow(5px 7px 4px #2a2a2a);
+    box-shadow: 5px 7px #2a2a2a;
+    transition-duration: .3s;
+}
+
+.skills div:hover{
+    box-shadow: 0px 0px #2a2a2a;
 }
 
 .skills img{
@@ -136,23 +160,70 @@ a:hover {
 }
 
 .portfolio{
-    display: flex;
-    justify-content: center;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    padding-top: 70px;
+    background-color: #292929;
 }
 
-.portfolio button{
+.portfolio h1{
+    text-transform: uppercase;
+    color: #E4E4E4;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 48px;
+}
+
+.con button{
     width: 60px;
     height: 60px;
     border-radius: 60px;
     background-color: orange;
+    margin: auto 20px;
+    border: none;
+    filter: drop-shadow(0px 0px 5px orange);
+    transition-duration: .3s;
+}
+
+.con button:hover{
+    filter: drop-shadow(0px 0px 0px orange);
 }
 
 .slider{
     padding: 50px;
+    font-family: 'Montserrat',sans-serif;
+    display: flex;
+    color: #E4E4E4;
+    font-weight: 300;
+    background-color: #3e3e3e;
+    border-radius: 30px;
+    width: 970px;
+    height: 600px;
+    box-sizing: border-box;
 
+}
+
+.con{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 .slider img{
     width: 495px;
     height: 500px;
+    margin-right: 75px;
+}
+
+.slider-text h4{
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.slider-text p{
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.portfolio h1{
+    text-align: center;
 }

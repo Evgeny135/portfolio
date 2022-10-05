@@ -5,7 +5,7 @@ const nodeNextButton = document.querySelector(".next");
 console.log(nodeImage);
 
 let images = [
-    "images/backend.svg",
+    "images/landing.svg",
     "images/frontend.svg",
     "images/logo.svg",
     "images/UI.svg",
