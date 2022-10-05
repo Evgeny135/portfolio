@@ -76,12 +76,12 @@ a:hover {
 
 }
 
-@media (max-width: 750px) {
+
+@media (max-width: 770px) {
     .home{
         flex-direction: column-reverse;
     }
 }
-
 
 .home-title{
     margin-left: 15%;
@@ -146,6 +146,7 @@ a:hover {
     background-color: #373737;
 }
 
+
 @media (max-width: 1300px) {
     .home-title .hello{
         font-size: 24px ;
@@ -194,6 +195,7 @@ a:hover {
         margin-top: 50px;
     }
 }
+
 
 .skills{
     background-color: #3c3c3c;
