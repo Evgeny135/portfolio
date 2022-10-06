@@ -204,6 +204,10 @@ a:hover {
         text-align: center;
     }
 
+    .home-btn{
+        margin-bottom: 10%;
+    }
+
     .home-img{
         margin: auto;
         width: 75%;
